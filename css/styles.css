@@ -1,10 +1,10 @@
 :root {
-  --black: #121212;
-  --white: #fff;
-  --brown: #bea69e;
+	--black: #121212;
+	--gray:#1D1D1D;
+	--white: #fff;
+	--brown: #bea69e;
   --font-family: "DM Sans", sans-serif;
 }
-
 /* header start */
 
 /* header end */
@@ -22,7 +22,117 @@
 /* 3.section end */
 
 /* 4.section start */
+.our-courses{
+    background-color: var(--black);
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.fourth-section{
+    background-color: var(--black);
+    width: 1240px;
+}
+.title-paragraph{
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.title{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--white);
+}
+.title-span{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--brown);
+}
+.paragraph{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+    width: 565px;
+    height: 60px;
+    letter-spacing: -2%;
+}
+.fourth-section-card{
+    height: 452px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background:linear-gradient(to bottom , #060707 ,#1D1D1D );
+    width: 400px;
+    height: 452px;
+    border-radius: 12px;
+    border: solid 1px var(--gray);
+}
+.card-number-container{
+    width: 336px;
+    height: 32px;
+    margin-top: 32px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-number{
+    width: 14px;
+    height: 18px;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -2%;
+    color: var(--white);
+    opacity: 40%;
+}
+.card-icon{
+    background-color: var(--gray);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+}
+.icon-arrow{
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
 
+.fourth-section-subtitle{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--white);
+    width: 265px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.card-paragraph{
+    color: var(--white);
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    width: 336px;
+    height: 60px;
+    margin-top: 200px;
+    margin-left: 32px;
+    opacity: 50%;
+}
 /* 4.section end */
 
 /* 5.section start */
