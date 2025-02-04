@@ -50,7 +50,7 @@
 
 .our-mentors-div {
   position: relative;
-  left: 70px;
+
   display: flex;
   align-items: center;
 }
@@ -61,6 +61,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  padding-left: 103px;
 }
 
 .mentors-img-head {
