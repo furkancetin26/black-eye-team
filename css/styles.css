@@ -38,5 +38,67 @@
 /* 7.section end */
 
 /* footer start */
+.footer{
+	background-color: #121212;
+	width: 1440px;
+	height: 331px;
+
+}
+.footer-div{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+}
+
+.footer-ul {
+	list-style: none;
+	vertical-align: 20px;
+}
+
+.ul-container{
+	display: flex;
+gap: 100px;
+list-style: none;
+
+}
+
+.footer-logo {
+	display: flex;
+	flex-direction: column; 
+	align-items: flex-start; 
+	gap: 8px;
+	flex: 1;
+  }
+  .email-container {
+	display: flex;
+	align-items: center;
+  }
+  
+  input[type="email"] {
+	padding: 10px;
+	font-size: 14px;
+	width: 250px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	margin-right: 10px; /* Düğme ile metin kutusu arasına boşluk */
+  }
+  
+  button {
+	padding: 10px 15px;
+	background-color: #1d1d1d;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  button:hover {
+	background-color: #1d1d1d;
+  }
+  
+  
 
 /* footer end */
