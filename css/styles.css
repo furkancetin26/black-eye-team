@@ -1,85 +1,119 @@
 :root {
-  --black: #121212;
-  --white: #fff;
-  --brown: #bea69e;
-  --font-family: "DM Sans", sans-serif;
-}
-body {
-  background-color: var(--black);
-  font-family: "DM Sans", sans-serif;
-  width: 1440px;
-}
-.advertisement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.paragraph-advert {
-  color: var(--brown);
-  font-size: 59px;
-  text-transform: uppercase;
-}
-
-.paragraph-advert-two {
-  color: var(--white);
-}
-
-.container-about-us {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-align-items: center;
-gap: 50px;
-}
-.about-us {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  padding: 100px;
-  margin: 100px;
-  width: 1240px;
-  height: 344px;
-}
-
-.two-title {
-  color: var(--white);
-  font-size: 48px;
-  text-align: left;
-  margin-left: 0;
-  width: 100%;
-}
-.two-title-two {
-  color: var(--brown);
-  font-size: 48px;
-  text-align: left;
-}
-.photography-text {
-  width: 276px;
-  height: 215px;
-  color: var(--white);
-  font-size: 16px;
-  overflow: hidden;
-  vertical-align: middle;
-  position: relative;
-}
-
-.photography {
-  border-radius: 50px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-size: cover;
-  overflow: hidden;
-  text-align: left;
-}
-.photography-text-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-}
+    --black: #121212;
+    --white: #fff;
+    --brown: #bea69e;
+    --font-family: "DM Sans", sans-serif;
+  }
+  
+  .advertisement {
+      background-color: var(--black);
+      font-family: var(--font-family);
+      width: 1440px;
+      margin: auto;
+  }
+  
+  .advert {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .paragraph-advert {
+    color: var(--brown);
+    font-size: 59px;
+    text-transform: uppercase;
+  }
+  
+  .paragraph-advert-two {
+    color: var(--white);
+  }
+  
+  .about-us {
+      background-color: var(--black);
+      font-family: var(--font-family);
+      width: 1440px;
+      margin: auto;
+  }
+  
+  .about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 100px;
+    margin: 100px;
+    width: 1240px;
+    height: 354px;
+  }
+  
+  .two-title {
+    color: var(--white);
+    font-size: 48px;
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .two-title-two {
+    color: var(--brown);
+    font-size: 48px;
+    text-align: left;
+  }
+  
+  .photography-texts {
+      display: flex;
+      gap: 40px;
+      position: absolute;
+      bottom: 0;
+  }
+  
+  .photography-text {
+    height: 215px;
+    color: var(--white);
+    font-size: 16px;
+    overflow: hidden;
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  
+  .photography-text-one {
+      width: 314px;
+      height: 100%;
+  }
+  
+  .photography-text-two {
+      width: 276px;
+      height: 100%;
+  }
+  
+  .photography {
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-size: cover;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .photography-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0;
+  }
