@@ -47,19 +47,10 @@
 .our-mentors-span {
   color: var(--brown);
 }
-.mentors-info {
-  display: flex;
-}
-
-.mentors-team-div {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  left: 75px;
-}
 
 .our-mentors-div {
   position: relative;
+  left: 70px;
   display: flex;
   align-items: center;
 }
