@@ -1,0 +1,75 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+html {
+  background-color: var(--black);
+  font-family: "DM Sans", sans-serif;
+}
+.advertisement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1440px;
+}
+
+.paragraph-advert {
+  color: var(--brown);
+  font-size: 59px;
+  text-transform: uppercase;
+}
+
+.paragraph-advert-two {
+  color: var(--white);
+}
+
+.container-about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 50px;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  margin: 100px;
+}
+
+.two-title {
+  color: var(--white);
+  font-size: 48px;
+  text-align: left;
+  margin-left: 0;
+  width: 100%;
+}
+.two-title-two {
+  color: var(--brown);
+  font-size: 48px;
+  text-align: left;
+}
+
+.photography {
+  width: 240px;
+  height: 560px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: left;
+}
+.photography-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 276px;
+  height: 215px;
+  color: var(--white);
+  font-size: 16px;
+}
