@@ -4,16 +4,16 @@
   --brown: #bea69e;
   --font-family: "DM Sans", sans-serif;
 }
-html {
+body {
   background-color: var(--black);
   font-family: "DM Sans", sans-serif;
+  width: 1440px;
 }
 .advertisement {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 1440px;
 }
 
 .paragraph-advert {
@@ -30,16 +30,19 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1000px;
-  margin: auto;
-  gap: 50px;
+align-items: center;
+gap: 50px;
 }
 .about-us {
   display: flex;
   flex-direction: column;
-  padding: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 100px;
   margin: 100px;
+  width: 1240px;
+  height: 344px;
 }
 
 .two-title {
@@ -54,22 +57,29 @@ html {
   font-size: 48px;
   text-align: left;
 }
+.photography-text {
+  width: 276px;
+  height: 215px;
+  color: var(--white);
+  font-size: 16px;
+  overflow: hidden;
+  vertical-align: middle;
+  position: relative;
+}
 
 .photography {
-  width: 240px;
-  height: 560px;
   border-radius: 50px;
-  align-items: center;
-  justify-content: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-size: cover;
+  overflow: hidden;
+  text-align: left;
 }
-.photography-text {
+.photography-text-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  width: 276px;
-  height: 215px;
-  color: var(--white);
-  font-size: 16px;
 }
