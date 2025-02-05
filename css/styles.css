@@ -413,16 +413,71 @@
 /* 4.section end */
 
 /* 5.section start */
+.our-mentors {
+  width: 1240px;
+  margin: 150px auto;
+  position: relative;
+  background-color: black;
+}
 
+.mentors-header {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.12;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.our-mentors-span {
+  color: var(--brown);
+}
+
+.our-mentors-div {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.mentors-list {
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-left: 103px;
+}
+
+.mentors-img-head {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--white);
+}
+
+.mentors-text {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.mentors-image {
+  border-radius: 50%;
+}
 /* 5.section end */
 
 /* 6.section start */
 
 /* 6.section end */
-
-/* 7.section start */
-
-/* 7.section end */
 
 /* footer start */
 
