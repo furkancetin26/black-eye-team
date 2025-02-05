@@ -17,12 +17,12 @@ body {
 }
 
 /* header start */
-.header-hero-overlay{
-    background-image: url(../images/graphic.png);
-    height: 910px;
-    background-size: cover;
-    position: relative;
-    top: -20px;
+.header-hero-overlay {
+  background-image: url(../images/graphic.png);
+  height: 910px;
+  background-size: cover;
+  position: relative;
+  top: -20px;
 }
 
 .header {
@@ -188,8 +188,8 @@ body {
 }
 
 .icon-hero-arrow {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .hero .text {
@@ -443,6 +443,7 @@ body {
 /* 5.section start */
 .our-mentors {
   width: 1240px;
+  height: 354px;
   margin: 150px auto;
   position: relative;
   background-color: var(--black);
@@ -478,6 +479,9 @@ body {
   gap: 100px;
   padding-left: 103px;
 }
+.mentors-info {
+  height: 54px;
+}
 
 .mentors-img-head {
   text-align: center;
@@ -485,10 +489,13 @@ body {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.1;
+  letter-spacing: 0;
   color: var(--white);
 }
 
 .mentors-text {
+  position: relative;
+  bottom: 20px;
   text-align: center;
   font-family: var(--font-family);
   font-weight: 400;
@@ -500,7 +507,43 @@ body {
 
 .mentors-image {
   border-radius: 50%;
+  margin-top: 50px;
 }
+
+@media (max-width: 320px) {
+  .our-mentors {
+    width: 335px;
+    height: 1152px;
+  }
+
+  .mentors-list {
+    display: block;
+  }
+
+  .mentors-img-head {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    font-family: var(--font-family);
+  }
+
+  .mentıors-text {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    font-family: var(--font-family);
+  }
+
+  .mentors-card {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+  .mentors-image {
+    margin-top: 40px;
+  }
+}
+
 /* 5.section end */
 
 /* 6.section start */
