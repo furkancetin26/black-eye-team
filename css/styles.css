@@ -3,14 +3,111 @@
 	--gray:#1D1D1D;
 	--white: #fff;
 	--brown: #bea69e;
-  --font-family: "DM Sans", sans-serif;
+    --font-family: "DM Sans", sans-serif;
 }
 /* header start */
 
 /* header end */
 
 /* 1.section start */
+.hero{
+    width: 1240px;
+    background-color: var(--black);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.hero-p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 106%;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    padding-top: 80px;
+    padding-left: 50px;
+    margin: 0;
+}
+.hero-p span:first-child{
+    font-style: italic;
+    font-weight: 400;
+    color: var(--brown);
+}
+.hero-p .our-school{
+    display: block;
+}
+.hero-p2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+    
+}
+.hero-p2 span{
+    display: block;
+}
+.hero-right{
+    padding-top: 80px;
+    padding-right: 100px;
+}
+.hero-left .our-students {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 136px;
+    padding-bottom: 50px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero-left .our-students .images img:first-child{
+    width: 137px;
+    height: 54px;
+}
+.our-students p{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    color: var(--white);
+}
+.our-students p span{
+    display: block;
+}
 
+.hero .text{
+    position: relative;
+    margin-left: 12px;
+}
+.hero .reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.hero .reviews span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8px;
+}
+.hero .reviews img:first-child{
+    width: 50px;
+    height: 50px;
+}
 /* 1.section end */
 
 /* 2.section start */
