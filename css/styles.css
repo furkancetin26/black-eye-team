@@ -17,6 +17,12 @@ body {
 }
 
 /* header start */
+.header-overlay{
+    background-image: url(../images/graphic.png);
+    height: 910px;
+    background-size: cover;
+}
+
 .header {
   background-color: var(--black);
   width: 1440px;
