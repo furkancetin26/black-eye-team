@@ -515,11 +515,7 @@ body {
 /* 5.section end */
 
 /* 6.section start */
-.section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #121212;
-}
+
 
 .accent {
   color: var(--brown);
@@ -533,45 +529,10 @@ body {
   letter-spacing: -0.04em;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
-@media only screen and (min-width: 768px) {
-  .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
 
-@media only screen and (min-width: 1280px) {
-  .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-
-  .container {
-    max-width: 1110px;
-    padding: 0 15px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1270px;
-    padding: 0 15px;
-  }
-}
-
-.sign-up-button {
+.send-button {
   background-color: var(--white);
   color: var(--black);
   font-weight: 700;
@@ -587,8 +548,8 @@ body {
   height: 48px;
 }
 
-.sign-up-button:hover,
-.sign-up-button:focus {
+.send-button:hover,
+.send-button:focus {
   background-color: var(--fill);
   color: var(--brown);
 }
