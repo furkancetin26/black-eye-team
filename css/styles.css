@@ -1,9 +1,20 @@
 :root {
-  --black: #121212;
+  --black: #000;
+  --blacky: #121212;
   --gray: #1d1d1d;
   --white: #fff;
   --brown: #bea69e;
   --font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.container {
+  background-color: var(--black);
+  width: 1440px;
+  margin: auto;
 }
 
 /* header start */
@@ -14,6 +25,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  margin-top: 20px;
 }
 
 .header-menu {
@@ -73,7 +85,7 @@
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--blacky);
   white-space: nowrap;
   cursor: pointer;
 }
@@ -83,7 +95,7 @@
 /* 1.section start */
 .hero {
   width: 1240px;
-  background-color: var(--black);
+  background-color: var(--blacky);
   border-radius: 30px;
   margin: 150px auto;
   display: flex;
@@ -417,7 +429,7 @@
   width: 1240px;
   margin: 150px auto;
   position: relative;
-  background-color: black;
+  background-color: var(--black);
 }
 
 .mentors-header {
