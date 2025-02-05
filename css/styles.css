@@ -77,6 +77,11 @@ body {
   cursor: pointer;
 }
 
+.header-menu-item:hover, 
+.header-menu-item:focus {
+  color: var(--brown);
+}
+
 .icon-logo {
   margin-left: 50px;
   width: 124px;
@@ -99,6 +104,12 @@ body {
   cursor: pointer;
 }
 
+.sign-up-button:hover {
+    background: var(--gray);
+    color: var(--brown);
+    border: var(--gray);
+    line-height: 1.56;
+}
 /* header end */
 
 /* 1.section start */
@@ -510,3 +521,11 @@ body {
 /* footer start */
 
 /* footer end */
+
+@media (min-width:320px) and (max-width:767px) {
+    
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+    
+}
