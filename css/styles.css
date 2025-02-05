@@ -17,10 +17,12 @@ body {
 }
 
 /* header start */
-.header-overlay{
+.header-hero-overlay{
     background-image: url(../images/graphic.png);
     height: 910px;
     background-size: cover;
+    position: relative;
+    top: -20px;
 }
 
 .header {
@@ -31,6 +33,8 @@ body {
   justify-content: center;
   margin-bottom: 80px;
   margin-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .header-menu {
@@ -223,6 +227,8 @@ body {
   font-family: var(--font-family);
   width: 1440px;
   margin: auto;
+  position: relative;
+  top: -20px;
 }
 
 .advert {
