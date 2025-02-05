@@ -17,13 +17,18 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
   
   .paragraph-advert {
-    color: var(--brown);
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 59px;
+    line-height: 108%;
+    letter-spacing: -0.02em;
     text-transform: uppercase;
+    color: var(--brown)
   }
   
   .paragraph-advert-two {
@@ -35,28 +40,25 @@
       font-family: var(--font-family);
       width: 1440px;
       margin: auto;
+      margin-top: 150px;
+      display: flex;
+      justify-content: center;
   }
   
   .about-us-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    padding: 100px;
-    margin: 100px;
     width: 1240px;
     height: 354px;
   }
   
   .two-title {
-    color: var(--white);
+    font-family: var(--font-family);
+    font-weight: 500;
     font-size: 48px;
-    text-align: left;
-    margin-left: 0;
+    line-height: 112%;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    margin: 0;
     width: 100%;
-    position: absolute;
-    top: 40px;
     margin-bottom: 50px;
   }
   
@@ -69,51 +71,19 @@
   .photography-texts {
       display: flex;
       gap: 40px;
-      position: absolute;
-      bottom: 0;
   }
   
   .photography-text {
-    height: 215px;
-    color: var(--white);
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 16px;
-    overflow: hidden;
-    vertical-align: middle;
-    position: absolute;
-    margin-top: 50px;
-    bottom: 0;
-    line-height: 1.25;
+    line-height: 125%;
     letter-spacing: -0.02em;
+    color: var(--white);
   }
-  
-  .photography-text-one {
-      width: 314px;
-      height: 100%;
-  }
-  
-  .photography-text-two {
-      width: 276px;
-      height: 100%;
-  }
-  
-  .photography {
-    border-radius: 50px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    background-size: cover;
-    overflow: hidden;
-    text-align: left;
-  }
-  
   .photography-text-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 50px;
     width: 100%;
-    position: absolute;
-    margin-top: 50px;
-    bottom: 0;
   }
