@@ -7,6 +7,76 @@
 }
 
 /* header start */
+.header {
+	background-color: var(--black);
+    width: 1440px;
+    margin: auto;
+    display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.header-menu {
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	width: 1240px;
+}
+
+.header-menus {
+	white-space: nowrap;
+}
+
+.header-menu-left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 12px;
+	gap: 136px;
+	width: 982px;
+	position: relative;
+    overflow: hidden;
+}
+
+.header-menu-list {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	gap: 40px;
+}
+
+.header-menu-item {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--white);
+	cursor: pointer;
+}
+
+.icon-logo {
+	margin-left: 50px;
+	width: 124px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.sign-up-button {
+	border-radius: 12px;
+	padding: 16px 84px;
+	width: 238px;
+	height: 60px;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: var(--black);
+	white-space: nowrap;
+	cursor: pointer;
+}
 
 /* header end */
 
