@@ -19,32 +19,29 @@
   <body>
     <!--header-->
     <header class="container">
-      <div class="header">
-        <div class="header-menu">
-          <div class="header-menu-left">
-            <div class="header-menu-logo">
-              <svg class="icon-logo">
-                <use xlink:href="./images/icons.svg#icon-FocusFrame"></use>
-              </svg>
+      <div class="header-hero-overlay">
+        <div class="header">
+          <div class="header-menu">
+            <div class="header-menu-left">
+              <div class="header-menu-logo">
+                <svg class="icon-logo">
+                  <use xlink:href="./images/icons.svg#icon-FocusFrame"></use>
+                </svg>
+              </div>
+              <div class="header-menus">
+                <ul class="header-menu-list">
+                  <li class="header-menu-item">About us</li>
+                  <li class="header-menu-item">Our courses</li>
+                  <li class="header-menu-item">Our mentors</li>
+                  <li class="header-menu-item">Reviews</li>
+                  <li class="header-menu-item">Contacts</li>
+                </ul>
+              </div>
             </div>
-            <div class="header-menus">
-              <ul class="header-menu-list">
-                <li class="header-menu-item">About us</li>
-                <li class="header-menu-item">Our courses</li>
-                <li class="header-menu-item">Our mentors</li>
-                <li class="header-menu-item">Reviews</li>
-                <li class="header-menu-item">Contacts</li>
-              </ul>
-            </div>
+            <button class="sign-up-button">Sign Up</button>
           </div>
-          <button class="sign-up-button">Sign Up</button>
         </div>
-      </div>
-    </header>
-
-    <main>
-      <!--1.section start-->
-      <section class="container">
+        <!--1.section start-->
         <div class="hero">
           <div class="hero-left">
             <p class="hero-p">
@@ -67,7 +64,9 @@
                 <img src="./images/images.png" class="img-1" alt="students" />
                 <div class="text">
                   <p><span>Our Happy</span> students</p>
-                  <img src="images/arrow.svg" alt="arrow" width="18" />
+                  <svg class="icon-hero-arrow">
+                    <use xlink:href="./images/icons.svg#icon-arrow-hero"></use>
+                  </svg>
                 </div>
               </div>
               <div class="reviews">
@@ -78,14 +77,15 @@
               </div>
             </div>
           </div>
-
+  
           <div class="hero-right">
             <img src="./images/man.png" alt="man" width="397" height="520" />
           </div>
         </div>
-      </section>
-      <!--1.section end-->
-
+        <!--1.section end-->
+      </div>
+    </header>
+    <main>
       <!--2.section start-->
       <section class="container">
         <div class="advertisement">

@@ -1,6 +1,5 @@
 :root {
-  --black: #000;
-  --blacky: #121212;
+  --black: #121212;
   --gray: #1d1d1d;
   --white: #fff;
   --brown: #bea69e;
@@ -18,6 +17,14 @@ body {
 }
 
 /* header start */
+.header-hero-overlay{
+    background-image: url(../images/graphic.png);
+    height: 910px;
+    background-size: cover;
+    position: relative;
+    top: -20px;
+}
+
 .header {
   background-color: var(--black);
   width: 1440px;
@@ -26,6 +33,8 @@ body {
   justify-content: center;
   margin-bottom: 80px;
   margin-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .header-menu {
@@ -85,7 +94,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: var(--blacky);
+  color: var(--black);
   white-space: nowrap;
   cursor: pointer;
 }
@@ -95,7 +104,7 @@ body {
 /* 1.section start */
 .hero {
   width: 1240px;
-  background-color: var(--blacky);
+  background-color: var(--gray);
   border-radius: 30px;
   margin: 150px auto;
   display: flex;
@@ -178,6 +187,11 @@ body {
   display: block;
 }
 
+.icon-hero-arrow {
+    width: 18px;
+    height: 18px;
+}
+
 .hero .text {
   position: relative;
   margin-left: 12px;
@@ -213,6 +227,8 @@ body {
   font-family: var(--font-family);
   width: 1440px;
   margin: auto;
+  position: relative;
+  top: -20px;
 }
 
 .advert {
