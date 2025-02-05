@@ -1,6 +1,5 @@
 :root {
-  --black: #000;
-  --blacky: #121212;
+  --black: #121212;
   --gray: #1d1d1d;
   --white: #fff;
   --brown: #bea69e;
@@ -85,7 +84,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: var(--blacky);
+  color: var(--black);
   white-space: nowrap;
   cursor: pointer;
 }
@@ -95,7 +94,7 @@ body {
 /* 1.section start */
 .hero {
   width: 1240px;
-  background-color: var(--blacky);
+  background-color: var(--gray);
   border-radius: 30px;
   margin: 150px auto;
   display: flex;
@@ -176,6 +175,11 @@ body {
 
 .our-students p span {
   display: block;
+}
+
+.icon-hero-arrow {
+    width: 18px;
+    height: 18px;
 }
 
 .hero .text {
