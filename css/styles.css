@@ -536,7 +536,7 @@ body {
     position: relative;
     width: 335px;
     height: 1152px;
-    margin-top: 80px;
+    margin: 80px 20px;
   }
 
   .mentors-header {
@@ -586,4 +586,32 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
+  .our-mentors {
+    min-width: 704px;
+    height: 697px;
+    position: relative;
+    margin: 100px 32px;
+  }
+
+  .mentors-header {
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .mentors-list {
+    position: relative;
+    right: 30px;
+
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+    min-width: 488px;
+  }
+
+  .mentors-card {
+    text-align: center;
+  }
 }
