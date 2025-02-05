@@ -3,6 +3,9 @@
 <symbol id="icon-arrow" viewBox="0 0 32 32">
 <path fill="none" stroke="#777" style="stroke: var(--color1, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16M13.333 8h10.667v10.667"></path>
 </symbol>
+<symbol id="icon-arrow-hero" viewBox="0 0 64 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
+</symbol>
 <symbol id="icon-FocusFrame" viewBox="0 0 233 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M19.471 17.348h-13.192v12.649h-6.28v-29.997h21.368v5.24h-15.089v6.822h13.192v5.286z"></path>
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M32.201 25.66c3.569 0 5.376-2.259 5.376-6.776s-1.807-6.731-5.376-6.731c-3.569 0-5.376 2.214-5.376 6.731s1.807 6.776 5.376 6.776zM32.201 30.584c-7.183 0-11.43-4.789-11.43-11.701 0-7.048 4.382-11.701 11.43-11.701 6.957 0 11.294 4.608 11.294 11.701 0 7.048-4.382 11.701-11.294 11.701z"></path>

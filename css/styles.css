@@ -1,6 +1,5 @@
 :root {
-  --black: #000;
-  --blacky: #121212;
+  --black: #121212;
   --gray: #1d1d1d;
   --white: #fff;
   --brown: #bea69e;
@@ -18,6 +17,14 @@ body {
 }
 
 /* header start */
+.header-hero-overlay{
+    background-image: url(../images/graphic.png);
+    height: 910px;
+    background-size: cover;
+    position: relative;
+    top: -20px;
+}
+
 .header {
   background-color: var(--black);
   width: 1440px;
@@ -26,6 +33,8 @@ body {
   justify-content: center;
   margin-bottom: 80px;
   margin-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .header-menu {
@@ -68,6 +77,11 @@ body {
   cursor: pointer;
 }
 
+.header-menu-item:hover, 
+.header-menu-item:focus {
+  color: var(--brown);
+}
+
 .icon-logo {
   margin-left: 50px;
   width: 124px;
@@ -85,17 +99,23 @@ body {
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: var(--blacky);
+  color: var(--black);
   white-space: nowrap;
   cursor: pointer;
 }
 
+.sign-up-button:hover {
+    background: var(--gray);
+    color: var(--brown);
+    border: var(--gray);
+    line-height: 1.56;
+}
 /* header end */
 
 /* 1.section start */
 .hero {
   width: 1240px;
-  background-color: var(--blacky);
+  background-color: var(--gray);
   border-radius: 30px;
   margin: 150px auto;
   display: flex;
@@ -178,19 +198,24 @@ body {
   display: block;
 }
 
+.icon-hero-arrow {
+    width: 18px;
+    height: 18px;
+}
+
 .hero .text {
   position: relative;
   margin-left: 12px;
 }
 
-.hero .reviews {
+.hero .reviews-count {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 40px;
 }
 
-.hero .reviews span {
+.hero .reviews-count span {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -200,7 +225,7 @@ body {
   margin-bottom: 8px;
 }
 
-.hero .reviews img:first-child {
+.hero .reviews-count img:first-child {
   width: 50px;
   height: 50px;
 }
@@ -213,6 +238,8 @@ body {
   font-family: var(--font-family);
   width: 1440px;
   margin: auto;
+  position: relative;
+  top: -20px;
 }
 
 .advert {
@@ -576,3 +603,79 @@ body {
 /* footer start */
 
 /* footer end */
+
+@media (min-width:320px) and (max-width:767px) {
+/* header start */
+
+/* header end */
+
+/* 1.section start */
+
+/* 1.section end */
+
+/* 2.section start */
+
+/* 2.section end */
+
+/* 3.section start */
+
+/* 3.section end */
+
+/* 4.section start */
+
+/* 4.section end */
+
+/* 5.section start */
+
+/* 5.section end */
+
+/* 6.section start */
+
+/* 6.section end */
+
+/* 7.section start */
+
+/* 7.section end */
+
+/* footer start */
+
+/* footer end */
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+/* header start */
+
+/* header end */
+
+/* 1.section start */
+
+/* 1.section end */
+
+/* 2.section start */
+
+/* 2.section end */
+
+/* 3.section start */
+
+/* 3.section end */
+
+/* 4.section start */
+
+/* 4.section end */
+
+/* 5.section start */
+
+/* 5.section end */
+
+/* 6.section start */
+
+/* 6.section end */
+
+/* 7.section start */
+
+/* 7.section end */
+
+/* footer start */
+
+/* footer end */
+}
