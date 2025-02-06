@@ -696,10 +696,9 @@ body {
 
 .sign-up-btn:hover,
 .sign-up-btn:focus {
-    background-color: #1d1d1d;
-    color: var(--brown);
+  background-color: #1d1d1d;
+  color: var(--brown);
 }
-
 
 .sign-up-agreement {
   color: rgba(255, 255, 255, 0.5);
@@ -877,7 +876,7 @@ body {
   .our-mentors {
     position: relative;
     width: 335px;
-    height: 1152px;
+    height: auto;
     margin: 80px 20px;
   }
 
@@ -1156,6 +1155,7 @@ body {
   }
 
   .mentors-header {
+    position: relative;
     font-size: 48px;
     letter-spacing: -0.04em;
     line-height: 1.1;
@@ -1165,7 +1165,7 @@ body {
   .mentors-list {
     position: relative;
     right: 30px;
-
+    bottom: 50px;
     justify-content: flex-start;
     display: grid;
     grid-template-columns: 50% 50%;
