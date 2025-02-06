@@ -877,7 +877,7 @@ body {
     position: relative;
     width: 335px;
     height: auto;
-    margin: 80px 20px;
+    margin: 80px auto;
   }
 
   .mentors-header {
@@ -1151,7 +1151,7 @@ body {
     min-width: 704px;
     height: 697px;
     position: relative;
-    margin: 100px 32px;
+    margin: 100px auto;
   }
 
   .mentors-header {
