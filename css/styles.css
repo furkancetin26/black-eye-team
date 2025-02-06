@@ -83,6 +83,7 @@ body{
 .header-menu-item:hover,
 .header-menu-item:focus {
   color: var(--brown);
+  transition: color 0.3s ease-in-out;
 }
 
 .icon-logo {
@@ -105,6 +106,7 @@ body{
   color: var(--black);
   white-space: nowrap;
   cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .sign-up-button:hover {
@@ -673,8 +675,10 @@ body{
   font-size: 14px;
   text-transform: uppercase;
   color: var(--black);
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
 }
 
+.side-menu-item:hover,
 .side-menu-item:focus {
   color: #000;
   font-weight: 700;
@@ -903,6 +907,7 @@ body{
   font-size: 14px;
   text-transform: uppercase;
   color: var(--black);
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
 }
 
 .side-menu-item:hover,
