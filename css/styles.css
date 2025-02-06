@@ -453,7 +453,8 @@ body {
 
 /* 5.section start */
 .our-mentors {
-  width: 1240px;
+  max-width: 1240px;
+  width: 100%;
   height: 354px;
   margin: 150px auto;
   position: relative;
@@ -535,8 +536,8 @@ body {
   .our-mentors {
     position: relative;
     width: 335px;
-    height: 1152px;
-    margin: 80px 20px;
+    height: auto;
+    margin: 80px auto;
   }
 
   .mentors-header {
@@ -551,8 +552,11 @@ body {
   }
 
   .mentors-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    gap: 40px;
   }
 
   .mentors-img-head {
@@ -574,8 +578,8 @@ body {
   }
 
   .mentors-card {
-    width: 185px;
-    margin-top: 40px;
+    width: 100%;
+    max-width: 185px;
     position: relative;
     right: 30px;
   }
@@ -587,31 +591,47 @@ body {
 
 @media (min-width: 768px) and (max-width: 1280px) {
   .our-mentors {
-    min-width: 704px;
-    height: 697px;
+    max-width: 100%;
+    width: 704px;
+    height: auto;
+    margin-top: 100px;
     position: relative;
-    margin: 100px 32px;
   }
 
   .mentors-header {
+    position: relative;
+    left: 0;
+    top: 0;
     font-size: 48px;
     letter-spacing: -0.04em;
     line-height: 1.1;
     font-weight: 500;
   }
 
-  .mentors-list {
+  .our-mentors-div {
     position: relative;
-    right: 30px;
+    bottom: 50px;
+  }
 
+  .mentors-list {
+    width: 100%;
+    height: auto;
+    display: flex;
     justify-content: flex-start;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 100px;
-    min-width: 488px;
+    flex-wrap: wrap;
+    gap: 93px;
   }
 
   .mentors-card {
+    width: 194px;
     text-align: center;
+    margin-top: 93px;
+  }
+
+  .mentors-img-head {
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    font-weight: 500;
   }
 }
