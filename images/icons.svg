@@ -20,6 +20,12 @@
       <path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z">
       </path>
     </symbol>
+    <symbol id="icon-star" viewBox="0 0 18 17">
+      <path d="M9 1L11.472 5.93691L17 6.73344L13 10.5741L13.944 16L9 13.4369L4.056 16L5 10.5741L1 6.73344L6.528 5.93691L9 1Z" fill="#BEA69E" stroke="#BEA69E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-star-empty" viewBox="0 0 18 17">
+      <path d="M9 1L11.472 5.93691L14.236 6.33517L17 6.73344L13 10.5741L13.944 16L9 13.4369L4.056 16L5 10.5741L1 6.73344L6.528 5.93691L9 1Z" fill="white" fill-opacity="0.2" stroke="#414141" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </defs>
 </svg>
 
