@@ -17,8 +17,32 @@
     />
   </head>
   <body>
+    <!--menu overlay-->
+    <div class="container">
+      
+    </div>
     <!--header-->
     <header class="container">
+      <div class="menu-overlay menu-overlay-open is-close">
+        <div class="side-menu-container">
+          <div class="side-menu">
+            <div class="close-button">
+              <svg class="icon-close" width="20" height="20">
+                <use xlink:href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </div>
+            <ul class="side-menu-list">
+              <li class="side-menu-item">About us</li>
+              <li class="side-menu-item">Our courses</li>
+              <li class="side-menu-item">Our mentors</li>
+              <li class="side-menu-item">Reviews</li>
+              <li class="side-menu-item">Contacts</li>
+            </ul>
+            <img class="side-menu-image" src="./images/menu-rectangle.png" alt="side-menu-camera">
+          </div>
+        </div>
+        
+      </div>
       <div class="header-hero-overlay">
         <div class="header">
           <div class="header-menu">
@@ -36,6 +60,18 @@
                   <li class="header-menu-item">Reviews</li>
                   <li class="header-menu-item">Contacts</li>
                 </ul>
+              </div>
+              <div class="mobile-header-menu-right">
+                <div class="mobile-menu-camera">
+                  <svg class="icon-camera" width="16" height="16">
+                    <use xlink:href="./images/icons.svg#icon-bi-camera"></use>
+                  </svg>
+                </div>
+                <div class="mobile-menu-nav">
+                  <svg class="icon-nav">
+                    <use xlink:href="./images/icons.svg#icon-nav"></use>
+                  </svg>
+                </div>
               </div>
             </div>
             <button class="sign-up-button">Sign Up</button>
@@ -85,7 +121,7 @@
         <!--1.section end-->
       </div>
     </header>
-    <main>
+    <main class="container">
       <!--2.section start-->
       <section class="container">
         <div class="advertisement">
@@ -368,6 +404,6 @@
     </main>
 
     <!--footer-->
-    <footer class="footer"></footer>
+    <footer class="footer container"></footer>
   </body>
 </html>
