@@ -872,7 +872,130 @@ body {
   /* 3.section end */
 
   /* 4.section start */
+  
+    .our-courses {
+      background-color: var(--black);
+      width: 100%;
+      padding: 0 15px;  
+      margin: auto;
+      display: block;   
+    }
+  
+    .fourth-section {
+      background-color: var(--black);
+      width: 100%;
+      padding: 0 15px;
+      margin: auto;
+    }
+  
+   
+    .title-paragraph {
+      display: flex;
+      flex-direction: column; 
+      align-items: flex-start;
+      height: auto;
+      gap: 10px;           
+    }
+  
+    .title,
+    .title-span {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 32px;    
+      line-height: 38px;
+    }
+  
+    .paragraph {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 14px;      
+      line-height: 18px;
+      color: var(--white);
+      width: 100%;         
+      height: auto;        
+      letter-spacing: normal;
+      margin-bottom: 15px;
+    }
+  
+   
+    .fourth-section-card {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+      height: auto;
+    }
+  
+    .card {
+      background: linear-gradient(to bottom, #060707, #1d1d1d);
+      width: 90%;             
+      max-width: 320px;       
+      height: auto;           
+      border-radius: 12px;
+      border: solid 1px var(--gray);
+      overflow: hidden;     
+    }
+  
+   
+    .card-number-container {
+      width: calc(100% - 32px);
+      margin: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .card-number {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 12px;       
+      line-height: 16px;
+      letter-spacing: -2%;
+      color: var(--white);
+      opacity: 40%;
+    }
+  
+    .card-icon {
+      background-color: var(--gray);
+      width: 28px;          
+      height: 28px;
+      border-radius: 50%;
+      border: none;
+    }
+  
+    .icon-arrow {
+      width: 16px;
+      height: 16px;
+      margin-top: 4px;
+      margin-left: 4px;
+    }
+  
+ 
+    .fourth-section-subtitle {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 24px;      
+      line-height: 28px;
+      color: var(--white);
+      width: calc(100% - 32px);
+      margin: 16px;
+    }
+  
 
+    .card-paragraph {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%;
+      color: var(--white);
+      width: calc(100% - 32px);
+      margin: 16px;
+      opacity: 50%;
+    }
+  
+  
   /* 4.section end */
 
   /* 5.section start */
@@ -1189,6 +1312,122 @@ body {
 
   /* 4.section start */
 
+    .our-courses {
+      background-color: var(--black);
+      width: 100%;             
+      max-width: 1440px;     
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;       
+    }
+  
+    .fourth-section {
+      background-color: var(--black);
+      width: 100%;
+      max-width: 1240px;       
+      margin: auto;
+    }
+  
+   
+    .title,
+    .title-span {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 40px;        
+      line-height: 44px;
+    }
+  
+
+    .paragraph {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: var(--white);
+      width: 100%;
+      max-width: 565px;        
+      height: 60px;
+      letter-spacing: -2%;
+    }
+  
+   
+    .fourth-section-card {
+      height: auto;         
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;     
+      gap: 20px;
+      justify-content: center;
+    }
+  
+ 
+    .card {
+      background: linear-gradient(to bottom, #060707, #1d1d1d);
+      width: 300px;        
+      height: 452px;
+      border-radius: 12px;
+      border: solid 1px var(--gray);
+    }
+  
+    .card-number-container {
+      width: calc(100% - 64px);  
+      margin: 32px;            
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .card-number {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%;
+      color: var(--white);
+      opacity: 40%;
+    }
+  
+    .card-icon {
+      background-color: var(--gray);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: none;
+    }
+  
+    .icon-arrow {
+      width: 20px;
+      height: 20px;
+      margin-top: 6px;
+      margin-left: 6px;
+    }
+  
+   
+    .fourth-section-subtitle {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 32px;
+      color: var(--white);
+      width: calc(100% - 64px);
+      margin: 32px;
+    }
+  
+  
+    .card-paragraph {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -2%;
+      width: calc(100% - 64px);
+      height: 60px;
+      margin: 32px;
+      opacity: 50%;
+    }
+  
+  
   /* 4.section end */
 
   /* 5.section start */
