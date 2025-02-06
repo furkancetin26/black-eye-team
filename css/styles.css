@@ -736,7 +736,6 @@ body {
 
   .mentors-header {
     position: relative;
-    left: 0;
     top: 0;
     font-size: 48px;
     letter-spacing: -0.04em;
@@ -747,6 +746,7 @@ body {
   .our-mentors-div {
     position: relative;
     bottom: 50px;
+    left: 35px;
   }
 
   .mentors-list {
