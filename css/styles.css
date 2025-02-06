@@ -107,6 +107,7 @@ body{
   white-space: nowrap;
   cursor: pointer;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  border: none;
 }
 
 .sign-up-button:hover {
