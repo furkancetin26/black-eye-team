@@ -525,6 +525,87 @@ body {
 /* 5.section end */
 
 /* 6.section start */
+.reviews {
+  width: 1240px;
+  margin: 150px auto;
+  position: relative;
+  background-color: var(--black);
+  color: white;
+}
+
+.reviews-header {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.12;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.reviews-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews-card {
+  border-radius: 12px;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+.reviews-student {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.reviews-student-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.reviews-student-info {
+  display: flex;
+}
+.reviews-student-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+  padding: 0;
+  margin-bottom: 4px;
+  display: block;
+  color: white;
+}
+
+.reviews-student-p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 400;
+  padding: 0 10px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.reviews-stars {
+  display: flex;
+  gap: 4px;
+  width: 120px;
+}
+.icon-star-svg {
+  width: 20px;
+}
+
+.reviews-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin: 20px 0 0 0;
+}
 
 /* 6.section end */
 
@@ -536,8 +617,8 @@ body {
   .our-mentors {
     position: relative;
     width: 335px;
-    height: auto;
-    margin: 80px auto;
+    height: 1152px;
+    margin: 80px 20px;
   }
 
   .mentors-header {
@@ -552,11 +633,8 @@ body {
   }
 
   .mentors-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
     position: relative;
-    gap: 40px;
   }
 
   .mentors-img-head {
@@ -578,8 +656,8 @@ body {
   }
 
   .mentors-card {
-    width: 100%;
-    max-width: 185px;
+    width: 185px;
+    margin-top: 40px;
     position: relative;
     right: 30px;
   }
@@ -587,51 +665,48 @@ body {
   .mentors-image {
     margin-top: 16px;
   }
+  /* 5.section end */
+
+  /* 6.section start */
+
+  /* 6.section end */
+
+  /* 7.section start */
+
+  /* 7.section end */
+
+  /* footer start */
+
+  /* footer end */
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
   .our-mentors {
-    max-width: 100%;
-    width: 704px;
-    height: auto;
-    margin-top: 100px;
+    min-width: 704px;
+    height: 697px;
     position: relative;
+    margin: 100px 32px;
   }
 
   .mentors-header {
-    position: relative;
-    left: 0;
-    top: 0;
     font-size: 48px;
     letter-spacing: -0.04em;
     line-height: 1.1;
     font-weight: 500;
   }
 
-  .our-mentors-div {
-    position: relative;
-    bottom: 50px;
-  }
-
   .mentors-list {
-    width: 100%;
-    height: auto;
-    display: flex;
+    position: relative;
+    right: 30px;
+
     justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 93px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+    min-width: 488px;
   }
 
   .mentors-card {
-    width: 194px;
     text-align: center;
-    margin-top: 93px;
-  }
-
-  .mentors-img-head {
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: 1.1;
-    font-weight: 500;
   }
 }
