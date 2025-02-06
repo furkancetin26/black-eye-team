@@ -875,7 +875,8 @@ body {
   /* 5.section start */
   .our-mentors {
     position: relative;
-    width: 335px;
+    max-width: 335px;
+    width: 100%;
     height: auto;
     margin: 80px auto;
   }
@@ -1148,7 +1149,8 @@ body {
 
   /* 5.section start */
   .our-mentors {
-    min-width: 704px;
+    width: 100%;
+    max-width: 704px;
     height: 697px;
     position: relative;
     margin: 100px auto;
