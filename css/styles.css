@@ -46,17 +46,17 @@
   --font-family: "DM Sans", sans-serif;
 }
 
-body {
+body{
+  top: -20px;
   position: relative;
-  font-family: var(--font-family);
 }
 
 .container {
   background-color: var(--black);
-  max-width: 1440px;
+  width: 1440px;
   margin: auto;
-  padding: 0 20px;
 }
+
 
 ul {
   margin: 0;
