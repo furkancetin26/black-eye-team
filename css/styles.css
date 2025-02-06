@@ -17,12 +17,12 @@ body {
 }
 
 /* header start */
-.header-hero-overlay{
-    background-image: url(../images/graphic.png);
-    height: 910px;
-    background-size: cover;
-    position: relative;
-    top: -20px;
+.header-hero-overlay {
+  background-image: url(../images/graphic.png);
+  height: 910px;
+  background-size: cover;
+  position: relative;
+  top: -20px;
 }
 
 .header {
@@ -77,7 +77,7 @@ body {
   cursor: pointer;
 }
 
-.header-menu-item:hover, 
+.header-menu-item:hover,
 .header-menu-item:focus {
   color: var(--brown);
 }
@@ -105,10 +105,10 @@ body {
 }
 
 .sign-up-button:hover {
-    background: var(--gray);
-    color: var(--brown);
-    border: var(--gray);
-    line-height: 1.56;
+  background: var(--gray);
+  color: var(--brown);
+  border: var(--gray);
+  line-height: 1.56;
 }
 /* header end */
 
@@ -199,8 +199,8 @@ body {
 }
 
 .icon-hero-arrow {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .hero .text {
@@ -265,6 +265,9 @@ body {
   color: var(--white);
 }
 
+/* 2.section end */
+
+/* 3.section start */
 .about-us {
   background-color: var(--black);
   font-family: var(--font-family);
@@ -275,8 +278,8 @@ body {
 }
 
 .about-us-container {
-  width: 1240px;
-  height: 354px;
+  max-width: 1240px;
+  height: auto;
 }
 
 .two-title {
@@ -315,12 +318,9 @@ body {
   display: flex;
   align-items: center;
   gap: 50px;
+  max-width: 240px;
   width: 100%;
 }
-
-/* 2.section end */
-
-/* 3.section start */
 
 /* 3.section end */
 
@@ -522,7 +522,46 @@ body {
 
 /* footer end */
 
-@media (min-width:320px) and (max-width:767px) {
+@media (min-width: 320px) and (max-width: 767px) {
+  /* header start */
+
+  /* header end */
+
+  /* 1.section start */
+
+  /* 1.section end */
+
+  /* 2.section start */
+
+  /* 2.section end */
+
+  /* 3.section start */
+
+  /* 3.section end */
+
+  /* 4.section start */
+
+  /* 4.section end */
+
+  /* 5.section start */
+
+  /* 5.section end */
+
+  /* 6.section start */
+
+  /* 6.section end */
+
+  /* 7.section start */
+
+  /* 7.section end */
+
+  /* footer start */
+
+  /* footer end */
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+}
 /* header start */
 
 /* header end */
@@ -532,10 +571,48 @@ body {
 /* 1.section end */
 
 /* 2.section start */
-
-/* 2.section end */
+@media (min-width: 768px) and (max-width: 1280px) {
+  .paragraph-advert,
+  .paragraph-advert-two {
+    min-width: 768px;
+    max-width: 1280px;
+  }
+  .paragraf-advert {
+    font-family: var(--font-family);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+}
+ /* 2.section end */
 
 /* 3.section start */
+
+@media (min-width: 768px) and (max-width: 1280px) {
+   .about-us {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+   }
+  
+
+  .photography-text-container {
+    display: block;
+    width: 100%;
+
+  }
+
+
+  .photography-text-container {
+    max-width: 600px;
+
+  }
+  .photography-text {
+    width: 280px;
+    height: auto;
+  }
+}
 
 /* 3.section end */
 
@@ -558,22 +635,52 @@ body {
 /* footer start */
 
 /* footer end */
-}
-
-@media (min-width:768px) and (max-width:1280px) {
-/* header start */
-
-/* header end */
-
-/* 1.section start */
-
-/* 1.section end */
 
 /* 2.section start */
-
+@media (min-width: 320px) and (max-width: 767px) {
+    .paragraph-advert,
+    .paragraph-advert-two {
+      min-width: 320px;
+      max-width: 767px;
+    }
+    .paragraf-advert {
+      font-family: var(--font-family);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      font-weight: 200;
+    }
+}
 /* 2.section end */
 
 /* 3.section start */
+@media (min-width: 320px) and (max-width: 767px) {
+    .about-us {
+        font-size: 14px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+       }
+      
+    
+      .photography-text-container {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    
+      }
+    
+    
+      .photography-text-container {
+        max-width: 600px;
+       
+    
+      }
+      .photography-text {
+        width: 280px;
+        height: auto;
+        
+      }
+}
 
 /* 3.section end */
 
@@ -596,4 +703,3 @@ body {
 /* footer start */
 
 /* footer end */
-}
