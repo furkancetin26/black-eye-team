@@ -688,6 +688,10 @@ body {
   padding: 16px;
   justify-content: center;
   align-items: center;
+  border-radius: 12px;
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .sign-up-agreement {
   color: rgba(255, 255, 255, 0.5);
@@ -1170,7 +1174,7 @@ body {
   .sign-up {
     margin-top: 100px;
   }
-  
+
   .sign-up .container {
     flex-direction: row;
     gap: 100px;
