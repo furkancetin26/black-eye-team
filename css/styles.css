@@ -1321,20 +1321,21 @@ body {
     .our-courses {
       background-color: var(--black);
       width: 100%;             
-      max-width: 1440px;     
-      margin: auto;
+      max-width: 1280px;     
+      margin: 0 auto;
       display: flex;
-      justify-content: center;
+      justify-content: start;
       padding: 0 20px;       
     }
   
     .fourth-section {
       background-color: var(--black);
-      width: 100%;
+      width: 768px;
       max-width: 1240px;       
       margin: auto;
     }
   
+    
    
     .title,
     .title-span {
@@ -1351,20 +1352,21 @@ body {
       font-size: 16px;
       line-height: 20px;
       color: var(--white);
-      width: 100%;
+      width: 381px;
       max-width: 565px;        
-      height: 60px;
+      height: 80px;
       letter-spacing: -2%;
     }
   
    
     .fourth-section-card {
-      height: auto;         
+      height: auto;       
+      margin: 0 auto;  
       margin-top: 50px;
       display: flex;
       flex-wrap: wrap;     
       gap: 20px;
-      justify-content: center;
+      justify-content: start;
     }
   
  
@@ -1380,7 +1382,7 @@ body {
       flex-direction: column;
       justify-content: space-between;     
     }
-  
+    .card
     .card-number-container {
       width: calc(100% - 64px);  
       margin: 32px;            
