@@ -17,8 +17,33 @@
     />
   </head>
   <body>
+    <!--menu overlay-->
+    <div class="container"></div>
     <!--header-->
     <header class="container">
+      <div class="menu-overlay menu-overlay-open is-close">
+        <div class="side-menu-container">
+          <div class="side-menu">
+            <div class="close-button">
+              <svg class="icon-close" width="20" height="20">
+                <use xlink:href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </div>
+            <ul class="side-menu-list">
+              <li class="side-menu-item">About us</li>
+              <li class="side-menu-item">Our courses</li>
+              <li class="side-menu-item">Our mentors</li>
+              <li class="side-menu-item">Reviews</li>
+              <li class="side-menu-item">Contacts</li>
+            </ul>
+            <img
+              class="side-menu-image"
+              src="./images/menu-rectangle.png"
+              alt="side-menu-camera"
+            />
+          </div>
+        </div>
+      </div>
       <div class="header-hero-overlay">
         <div class="header">
           <div class="header-menu">
@@ -36,6 +61,18 @@
                   <li class="header-menu-item">Reviews</li>
                   <li class="header-menu-item">Contacts</li>
                 </ul>
+              </div>
+              <div class="mobile-header-menu-right">
+                <div class="mobile-menu-camera">
+                  <svg class="icon-camera" width="16" height="16">
+                    <use xlink:href="./images/icons.svg#icon-bi-camera"></use>
+                  </svg>
+                </div>
+                <div class="mobile-menu-nav">
+                  <svg class="icon-nav">
+                    <use xlink:href="./images/icons.svg#icon-nav"></use>
+                  </svg>
+                </div>
               </div>
             </div>
             <button class="sign-up-button">Sign Up</button>
@@ -77,7 +114,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="hero-right">
             <img src="./images/man.png" alt="man" width="397" height="520" />
           </div>
@@ -85,15 +122,18 @@
         <!--1.section end-->
       </div>
     </header>
-    <main>
+    <main class="container">
       <!--2.section start-->
       <section class="container">
         <div class="advertisement">
           <div class="advert">
             <p class="paragraph-advert">
-              Master
-              <span class="paragraph-advert-two">your photography</span> skills
-              with us!
+              <span class="ad-span">Master</span> your photography
+              <span class="ad-span">skills with us!</span>
+            </p>
+            <p class="paragraph-advert">
+              <span class="ad-span">Master</span> your photography
+              <span class="ad-span">skills with us!</span>
             </p>
           </div>
         </div>
@@ -170,34 +210,34 @@
               </div>
               <div class="card">
                 <div class="card-number-container">
-                  <p class="card-number">01</p>
+                  <p class="card-number">02</p>
                   <div class="card-icon">
                     <svg class="icon icon-arrow">
                       <use xlink:href="./images/icons.svg#icon-arrow"></use>
                     </svg>
                   </div>
                 </div>
-                <h2 class="fourth-section-subtitle">Basics of photography</h2>
+                <h2 class="fourth-section-subtitle">Landscape photography</h2>
                 <p class="card-paragraph">
-                  During this course, you will be able to familiarize yourself
-                  with different types of cameras, learn the basics of
-                  composition.
+                  In this course, you'll learn how to choose the right angles,
+                  frame landscapes, and create depth and perspective in your
+                  images.
                 </p>
               </div>
               <div class="card">
                 <div class="card-number-container">
-                  <p class="card-number">01</p>
+                  <p class="card-number">03</p>
                   <div class="card-icon">
                     <svg class="icon icon-arrow">
                       <use xlink:href="./images/icons.svg#icon-arrow"></use>
                     </svg>
                   </div>
                 </div>
-                <h2 class="fourth-section-subtitle">Basics of photography</h2>
+                <h2 class="fourth-section-subtitle">Portrait photography</h2>
                 <p class="card-paragraph">
-                  During this course, you will be able to familiarize yourself
-                  with different types of cameras, learn the basics of
-                  composition.
+                  During this course, you will learn to choose the right
+                  lighting, reproduce the mood and expressions on the faces of
+                  the models.
                 </p>
               </div>
             </div>
@@ -273,15 +313,148 @@
       <!--5.section end-->
 
       <!--6.section start-->
-      <section class="sign-up"></section>
+      <section class="sign-up section">
+        <div class="container">
+          <div class="sign-up-left">
+            <h2 class="sign-up-title">
+              Sign <span class="sign-up-title-span">Up</span>
+            </h2>
+            <p class="sign-up-text">
+              Please use the form below to contact us. Enter your name, email,
+              and message and we'll get back to you shortly.
+            </p>
+            <form class="sign-up-form" autocomplete="off">
+              <input
+                class="sign-up-input"
+                type="text"
+                placeholder="Enter your name"
+              />
+              <input
+                class="sign-up-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <textarea
+                class="sign-up-texarea"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button class="sign-up-btn btn" type="button">Send</button>
+              <p class="sign-up-agreement">
+                By clicking on “Send” button, you agree to our
+                <a class="sign-up-link" href="">Privacy Policy</a>, and allow
+                Promodo to use this information for marketing purposes.
+              </p>
+            </form>
+          </div>
+          <div class="sign-up-right">
+            <img
+              class="sign-up-img"
+              src="./images/block.png"
+              alt="camera with lens"
+              width="560"
+              height="540"
+            />
+          </div>
+        </div>
+      </section>
       <!--6.section end-->
 
       <!--7.section start-->
-      <section class="reviews"></section>
+      <section class="container">
+        <div class="reviews">
+          <h2 class="reviews-header">Reviews</h2>
+          <div class="reviews-cards">
+            <div class="reviews-card">
+              <div class="reviews-student">
+                <div class="reviews-student-info">
+                  <img
+                    src="./images/abraham-baker.jpg"
+                    class="reviews-student-img"
+                  />
+                  <p class="reviews-student-p">
+                    <span class="reviews-student-name">Abraham Baker</span>
+                    Student
+                  </p>
+                </div>
+                <div class="reviews-stars">
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star-empty"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews-content">
+                <p class="reviews-review">
+                  I am very pleased that I decided to enroll in photography
+                  school. The teachers turned out to be very talented and
+                  experienced professionals who share their knowledge and are
+                  dedicated to their work. I was able to expand my skills and
+                  discover my own style.
+                </p>
+              </div>
+            </div>
+            <div class="reviews-card">
+              <div class="reviews-student">
+                <div class="reviews-student-info">
+                  <img
+                    src="./images/amanda-lowery.jpg"
+                    class="reviews-student-img"
+                  />
+                  <p class="reviews-student-p">
+                    <span class="reviews-student-name">Abraham Baker</span
+                    >Student
+                  </p>
+                </div>
+                <div class="reviews-stars">
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="icon-star">
+                    <use xlink:href="./images/icons.svg#icon-star-empty"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="reviews-content">
+                <p>
+                  I am very pleased that I decided to enroll in photography
+                  school. The teachers turned out to be very talented and
+                  experienced professionals who share their knowledge and are
+                  dedicated to their work. I was able to expand my skills and
+                  discover my own style.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--7.section end-->
     </main>
 
     <!--footer-->
-    <footer class="footer"></footer>
+    <footer class="footer container"></footer>
   </body>
 </html>
