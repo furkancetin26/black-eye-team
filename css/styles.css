@@ -242,19 +242,21 @@ body {
 .advertisement {
   background-color: var(--black);
   font-family: var(--font-family);
-  width: 1440px;
-  margin: auto;
-  position: relative;
-  top: -20px;
+  max-width: 1440px;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .advert {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.ad-span {
+  color: var(--brown);
 }
 
 .paragraph-advert {
@@ -264,12 +266,30 @@ body {
   line-height: 1.08;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--brown);
+  color: var(--white);
+  text-align: center;
+  flex-shrink: 0;
+  margin: 25px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: advertisemtenss;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
-.paragraph-advert-two {
-  color: var(--white);
+@keyframes advertisemtenss {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
+
+/* 2.section end */
+
+/* 3.section start */
 
 .about-us {
   background-color: var(--black);
@@ -323,10 +343,6 @@ body {
   gap: 50px;
   width: 100%;
 }
-
-/* 2.section end */
-
-/* 3.section start */
 
 /* 3.section end */
 
@@ -865,6 +881,24 @@ body {
 
   /* 2.section start */
 
+  .advertisement {
+    margin-top: 80px;
+    min-width: 588px;
+    width: 100%;
+  }
+
+  .paragraph-advert {
+    text-align: start;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 13px;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+    font-family: var(--font-family);
+  }
   /* 2.section end */
 
   /* 3.section start */
@@ -1181,6 +1215,24 @@ body {
 
   /* 2.section start */
 
+  .advertisement {
+    margin: 100px auto;
+    min-width: 840px;
+
+    width: 100%;
+  }
+
+  .paragraph-advert {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 24px 77px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
   /* 2.section end */
 
   /* 3.section start */
