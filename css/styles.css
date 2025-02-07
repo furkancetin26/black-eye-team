@@ -737,10 +737,11 @@ body {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 100%;
-    max-width: 375px;
     overflow: hidden;
   }
-
+  header.container{
+    padding: 0px 20px;
+  }
   /* side menu overlay */
   .menu-overlay-open {
     display: block;
@@ -821,6 +822,7 @@ body {
 
   .header-menu {
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .icon-logo {
@@ -875,7 +877,61 @@ body {
   /* header end */
 
   /* 1.section start */
-
+  .hero{
+    min-width: 335px;
+    height: 777px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .hero .hero-p{
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    padding: 0;
+    width: 295px;
+  }
+  .hero .images{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hero .text{
+    margin-left: 0;
+  }
+  .hero .hero-p2{
+    font-size: 14px;
+    padding: 0px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .hero .our-students{
+    padding: 0;
+    display: flex;
+  }
+  .hero .hero-right{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .hero .hero-right img{
+    width: 259px;
+    height: auto;
+  }
+  .hero .reviews-count{
+    gap: 12px;
+    align-items: start;
+  }
   /* 1.section end */
 
   /* 2.section start */
