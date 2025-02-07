@@ -755,6 +755,7 @@ body {
   padding-bottom: 25px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-repeat: repeat;
+  width: 100%;
 }
 
 .footer-overlay {
@@ -821,14 +822,13 @@ body {
 
 /* Footer Form */
 .footer-form {
-  margin-top: 75px;
-  margin-bottom: 40px;
   margin-left: auto;
 }
 
 .footer-label {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -1454,8 +1454,11 @@ body {
   .footer {
     padding-top: 30px;
     padding-bottom: 15px;
+    
   }
-
+  .footer-form{
+    margin-left: 0;
+  }
   .footer-logo {
     margin-bottom: 20px;
   }
@@ -1468,7 +1471,7 @@ body {
   .footer-address {
     font-size: 12px;
     margin-right: 0;
-    text-align: center;
+    
   }
 
   .footer-list,
@@ -1477,9 +1480,9 @@ body {
   }
 
   .thumb {
-    flex-direction: column;
-    align-items: center;
-    column-gap: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
     margin-bottom: 30px;
   }
 
@@ -1488,19 +1491,20 @@ body {
     margin-bottom: 15px;
   }
 
-  .footer-form {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
+  
 
   .input-footer {
-    width: 100%;
+    width: 267px;
   }
-
-  .privacy-wrapper {
+  .wrapper{
     flex-direction: column;
+    
+  }
+  .privacy-wrapper {
     align-items: center;
     text-align: center;
+    justify-content: space-between;
+    gap: 72px;
   }
 
   .privacy-link,
@@ -1509,9 +1513,16 @@ body {
     line-height: 1.2;
     width: auto;
   }
+  .privacy-link {
+    width: 171px;
+  }
 
+  .copyright-footer {
+    width: 134px;
+  }
   .plus-wrapper {
     margin-bottom: 20px;
+    align-items: center;
   }
   /* footer end */
 }
@@ -1944,6 +1955,8 @@ body {
   .footer {
     padding-top: 50px;
     padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .footer-logo {
@@ -1957,6 +1970,7 @@ body {
 
   .footer-address {
     margin-right: 58px;
+    
   }
 
   .plus-wrapper {
@@ -1967,6 +1981,7 @@ body {
   .thumb {
     column-gap: 25px;
     margin-bottom: 74px;
+    flex-wrap: nowrap;
   }
 
   .input-footer {
