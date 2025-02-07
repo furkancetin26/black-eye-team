@@ -269,7 +269,6 @@ body {
   color: var(--white);
   text-align: center;
   flex-shrink: 0;
-  margin: 25px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: advertisemtenss;
