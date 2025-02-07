@@ -929,15 +929,20 @@ body {
   
     .card {
       background: linear-gradient(to bottom, #060707, #1d1d1d);
-      width: 90%;             
+      width: 100%;             
       max-width: 320px;       
-      height: auto;           
+      height: 398px;           
       border-radius: 12px;
       border: solid 1px var(--gray);
-      overflow: hidden;     
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;     
     }
   
-   
+    .blok-text{
+      display: block;
+    }
     .card-number-container {
       width: calc(100% - 32px);
       margin: 16px;
@@ -979,7 +984,8 @@ body {
       line-height: 28px;
       color: var(--white);
       width: calc(100% - 32px);
-      margin: 16px;
+      margin: 28px 16px;
+      
     }
   
 
@@ -1364,10 +1370,15 @@ body {
  
     .card {
       background: linear-gradient(to bottom, #060707, #1d1d1d);
-      width: 300px;        
-      height: 452px;
+      width: 100%;             
+      max-width: 320px;       
+      height: 452px;           
       border-radius: 12px;
       border: solid 1px var(--gray);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;     
     }
   
     .card-number-container {
@@ -1421,8 +1432,8 @@ body {
       font-size: 16px;
       line-height: 20px;
       letter-spacing: -2%;
-      width: calc(100% - 64px);
-      height: 60px;
+      width: 278px;
+      height: 80px;
       margin: 32px;
       opacity: 50%;
     }
