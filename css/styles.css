@@ -1182,6 +1182,9 @@ body {
   /* 5.section end */
 
   /* 6.section start */
+  .sign-up{
+    margin-top: 0;
+  }
   .sign-up .container {
     flex-direction: column;
     gap: 40px;
