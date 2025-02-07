@@ -895,6 +895,7 @@ body {
     letter-spacing: -0.04em;
     padding: 0;
     width: 295px;
+    padding-bottom: 20px;
   }
   .hero .images{
     display: flex;
@@ -927,6 +928,7 @@ body {
   .hero .hero-right img{
     width: 259px;
     height: auto;
+    clip-path: inset(0px 0px 10px 0px);
   }
   .hero .reviews-count{
     gap: 12px;
