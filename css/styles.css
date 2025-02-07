@@ -962,16 +962,23 @@ body {
 
   /* 3.section start */
   .about-us {
-    max-width: 767px;
+    max-width: 335px;
     margin: 80px auto;
   }
 
+  .two-title,
+  .two-title-two {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+  }
+
   .about-us-container {
-    max-width: 767px;
+    max-width: 335px;
   }
 
   .photography-text-container {
-    max-width: 767px;
+    max-width: 335px;
     flex-direction: column;
   }
 
