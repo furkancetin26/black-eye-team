@@ -549,7 +549,8 @@ body {
 /* 7.section start */
 .reviews {
   width: 1240px;
-  margin: 150px auto;
+  margin: 0 auto;
+  padding-bottom: 150px;
   position: relative;
   background-color: var(--black);
   color: white;
@@ -735,7 +736,7 @@ body {
 /* footer start */
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: #121212;
+  
   color: #fff;
 }
 .visually-hidden {
@@ -1938,16 +1939,18 @@ body {
 
   /* 7.section start */
   .reviews {
-    margin: 100px 32px;
+    margin: 100px auto;
+    padding: 0;
     width: 704px;
   }
 
   .reviews-cards {
     display: block;
+    
   }
 
   .reviews-card {
-    margin: 50px 32px;
+    margin: 0 32px;
   }
 
   .reviews-cards .reviews-card:nth-child(2) {
