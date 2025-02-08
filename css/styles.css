@@ -7,7 +7,8 @@
 }
 
 body {
-  top: -20px;
+  padding: 0;
+  margin: 0;
   position: relative;
 }
 
@@ -35,7 +36,6 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
-  margin-top: 20px;
   position: relative;
   top: 20px;
 }
@@ -739,19 +739,10 @@ body {
   
   color: #fff;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .footer {
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 25px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -1979,7 +1970,7 @@ body {
   .plus-wrapper {
     display: flex;
     flex-direction: column;
-  }
+  } 
 
   .thumb {
     column-gap: 25px;
