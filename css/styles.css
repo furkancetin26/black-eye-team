@@ -987,6 +987,7 @@ body {
   /* header start */
   .header {
     margin-bottom: 20px;
+    background: transparent;
   }
 
   .header-menu {
@@ -1001,6 +1002,7 @@ body {
   .header-menu-left {
     width: 335px;
     gap: 90px;
+    background-color: var(--black);
   }
 
   .header-menus {
@@ -1108,7 +1110,6 @@ body {
   /* 2.section start */
 
   .advertisement {
-    margin-top: 80px;
     min-width: 588px;
     width: 100%;
   }
@@ -1610,8 +1611,11 @@ body {
   }
 
   /* header start */
+  .header-hero-overlay{
+    height: 1120px;
+  }
   .header {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     background: transparent;
   }
 
@@ -1680,6 +1684,7 @@ body {
     align-items: start;
     padding: 64px 32px;
     padding-bottom: 0;
+    overflow: hidden;
   }
   .hero .hero-p {
     font-size: 60px;
@@ -1732,7 +1737,7 @@ body {
   /* 2.section start */
 
   .advertisement {
-    margin: 100px auto;
+    margin: 0px auto;
     min-width: 840px;
 
     width: 100%;
