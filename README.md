@@ -10,4 +10,4 @@
 **Emre Çimen** *(Developer)* -> Sign Up \
 **Fatih Fındık** *(Developer)* -> Reviews \
 **Halil Uysal** *(Developer)* -> Footer \
-**Fatih Kenan Kaya** *(Developer)* -> Our Courses \
+**Fatih Kenan Kaya** *(Developer)* -> Our Courses
