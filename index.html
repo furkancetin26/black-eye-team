@@ -198,16 +198,20 @@
             <div class="fourth-section-card">
               <div class="card">
                 <div class="card-container">
-                <div class="card-number-container">
-                  <p class="card-number">01</p>
-                  <div class="card-icon">
-                    <svg class="icon icon-arrow">
-                      <use xlink:href="./images/icons.svg#icon-arrow"></use>
-                    </svg>
+                  <div class="card-number-container">
+                    <p class="card-number">01</p>
+                    <a href="#target-section">
+                      <div class="card-icon">
+                        <svg class="icon icon-arrow">
+                          <use xlink:href="./images/icons.svg#icon-arrow"></use>
+                        </svg>
+                      </div>
+                    </a>
                   </div>
+                  <h2 class="fourth-section-subtitle">
+                    <span class="blok-text">Basics of</span> photography
+                  </h2>
                 </div>
-                <h2 class="fourth-section-subtitle"><span class="blok-text">Basics of</span> photography</h2>
-              </div>
                 <p class="card-paragraph">
                   During this course, you will be able to familiarize yourself
                   with different types of cameras, learn the basics of
@@ -216,16 +220,20 @@
               </div>
               <div class="card">
                 <div class="card-container">
-                <div class="card-number-container">
-                  <p class="card-number">02</p>
-                  <div class="card-icon">
-                    <svg class="icon icon-arrow">
-                      <use xlink:href="./images/icons.svg#icon-arrow"></use>
-                    </svg>
+                  <div class="card-number-container">
+                    <p class="card-number">02</p>
+                    <a href="#target-section">
+                      <div class="card-icon">
+                        <svg class="icon icon-arrow">
+                          <use xlink:href="./images/icons.svg#icon-arrow"></use>
+                        </svg>
+                      </div>
+                    </a>
                   </div>
+                  <h2 class="fourth-section-subtitle">
+                    <span class="blok-text">Landscape</span> photography
+                  </h2>
                 </div>
-                <h2 class="fourth-section-subtitle"><span class="blok-text">Landscape</span> photography</h2>
-              </div>
                 <p class="card-paragraph">
                   In this course, you'll learn how to choose the right angles,
                   frame landscapes, and create depth and perspective in your
@@ -234,16 +242,20 @@
               </div>
               <div class="card">
                 <div class="card-container">
-                <div class="card-number-container">
-                  <p class="card-number">03</p>
-                  <div class="card-icon">
-                    <svg class="icon icon-arrow">
-                      <use xlink:href="./images/icons.svg#icon-arrow"></use>
-                    </svg>
+                  <div class="card-number-container">
+                    <p class="card-number">03</p>
+                    <a href="#target-section">
+                      <div class="card-icon">
+                        <svg class="icon icon-arrow">
+                          <use xlink:href="./images/icons.svg#icon-arrow"></use>
+                        </svg>
+                      </div>
+                    </a>
                   </div>
+                  <h2 class="fourth-section-subtitle">
+                    <span class="blok-text">Portrait</span> photography
+                  </h2>
                 </div>
-                <h2 class="fourth-section-subtitle"><span class="blok-text">Portrait</span> photography</h2>
-              </div>
                 <p class="card-paragraph">
                   During this course, you will learn to choose the right
                   lighting, reproduce the mood and expressions on the faces of
@@ -323,7 +335,7 @@
       <!--5.section end-->
 
       <!--6.section start-->
-      <section class="sign-up section">
+      <section class="sign-up section" id="target-section">
         <div class="container">
           <div class="sign-up-left">
             <h2 class="sign-up-title">
@@ -354,7 +366,7 @@
               ></textarea>
               <button class="sign-up-btn btn" type="button">Send</button>
               <p class="sign-up-agreement">
-                By clicking on 	&quot;Send&quot; button, you agree to our
+                By clicking on &quot;Send&quot; button, you agree to our
                 <a class="sign-up-link" href="">Privacy Policy</a>, and allow
                 Promodo to use this information for marketing purposes.
               </p>
@@ -469,7 +481,6 @@
     <!--footer-->
     <div class="container footer-overlay">
       <footer class="footer ">
-        
           <div class="wrapper">
             <div class="plus-wrapper">
               <a class="footer-logo" href="#">
@@ -528,12 +539,56 @@
               </div>
             </form>
           </div>
-          <div class="privacy-wrapper">
-            <p class="privacy-link">Privacy Policy Public Offering Agreement</p>
-            <p class="copyright-footer">
-              2024 Focus Frame &copy; All rights reserved
-            </p>
+          <div class="thumb">
+            <ul class="footer-list">
+              <li class="social-item">
+                <a class="social-link" href="#">Instagram</a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="#">Facebook</a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="#">Youtube</a>
+              </li>
+            </ul>
+            <ul class="footer-menu">
+              <li class="footer-item">
+                <a class="footer-link" href="#">About us</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#">Our courses</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#">Our mentors</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#">Reviews</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link">Contacts</a>
+              </li>
+            </ul>
           </div>
+          <form class="footer-form" name="Subscribe">
+            <div class="footer-label">
+              <label>
+                <input
+                  class="input-footer"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </label>
+              <button class="btn-footer" type="submit">Go</button>
+            </div>
+          </form>
+        </div>
+        <div class="privacy-wrapper">
+          <p class="privacy-link">Privacy Policy Public Offering Agreement</p>
+          <p class="copyright-footer">
+            2024 Focus Frame &copy; All rights reserved
+          </p>
+        </div>
       </footer>
     </div>
   </body>
