@@ -203,7 +203,9 @@ body {
 .our-students p span {
   display: block;
 }
-
+.our-students a span{
+  display: block;
+}
 .icon-hero-arrow {
   width: 18px;
   height: 18px;
@@ -213,7 +215,10 @@ body {
   position: relative;
   margin-left: 12px;
 }
-
+.hero .text a{
+  color: #ffffff;
+  text-decoration: none;
+}
 .hero .reviews-count {
   display: flex;
   justify-content: center;
