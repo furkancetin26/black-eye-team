@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Focus Frame</title>
+    <link rel="icon" type="images/svg+xml" href="./images/favicon.svg">
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
   </head>
   <body>
     <!--menu overlay-->
@@ -49,9 +51,11 @@
           <div class="header-menu">
             <div class="header-menu-left">
               <div class="header-menu-logo">
-                <svg class="icon-logo">
-                  <use xlink:href="./images/icons.svg#icon-FocusFrame"></use>
-                </svg>
+                <a class="header-logo" href="#">
+                  <svg class="icon-logo">
+                    <use xlink:href="./images/icons.svg#icon-FocusFrame"></use>
+                  </svg>
+                </a>
               </div>
               <div class="header-menus">
                 <ul class="header-menu-list">
@@ -100,7 +104,7 @@
               <div class="images">
                 <img src="./images/images.png" class="img-1" alt="students" />
                 <div class="text">
-                  <p><span>Our Happy</span> students</p>
+                  <a href="#reviews"><span>Our Happy</span> students</a>
                   <svg class="icon-hero-arrow">
                     <use xlink:href="./images/icons.svg#icon-arrow-hero"></use>
                   </svg>
@@ -354,8 +358,8 @@
               />
               <textarea
                 class="sign-up-texarea"
-                name=""
-                id=""
+                name="signup"
+                id="signup"
                 cols="30"
                 rows="10"
                 placeholder="Message"
@@ -383,7 +387,7 @@
 
       <!--7.section start-->
       <section class="container">
-        <div class="reviews">
+        <div class="reviews" id="reviews">
           <h2 class="reviews-header">Reviews</h2>
           <div class="reviews-cards">
             <div class="reviews-card">
@@ -392,6 +396,7 @@
                   <img
                     src="./images/abraham-baker.jpg"
                     class="reviews-student-img"
+                    alt="baker"
                   />
                   <p class="reviews-student-p">
                     <span class="reviews-student-name">Abraham Baker</span>
@@ -432,6 +437,7 @@
                   <img
                     src="./images/amanda-lowery.jpg"
                     class="reviews-student-img"
+                    alt="lowery"
                   />
                   <p class="reviews-student-p">
                     <span class="reviews-student-name">Abraham Baker</span
@@ -474,20 +480,64 @@
 
     <!--footer-->
     <div class="container footer-overlay">
-      <footer class="footer">
-        <div class="wrapper">
-          <div class="plus-wrapper">
-            <a class="footer-logo" href="#">
-              <svg class="footer-icon" width="127px" height="20px">
-                <use href="./images/icons.svg#icon-FocusFrame"></use>
-              </svg>
-            </a>
-            <address class="footer-address">
-              <a class="address-link">+38 066 543 8912</a>
-              <p class="address-text">
-                1678 S. Pioneer Road Salt Lake City UT 84104
-              </p>
-            </address>
+      <footer class="footer ">
+          <div class="wrapper">
+            <div class="plus-wrapper">
+              <a class="footer-logo" href="#">
+                <svg class="footer-icon" width="127px" height="20px">
+                  <use href="./images/icons.svg#icon-FocusFrame"></use>
+                </svg>
+              </a>
+              <address class="footer-address">
+                <a class="address-link">+38 066 543 8912</a>
+                <p class="address-text">
+                  1678 S. Pioneer Road Salt Lake City UT 84104
+                </p>
+              </address>
+            </div>
+            <div class="thumb">
+              <ul class="footer-list">
+                <li class="social-item">
+                  <a class="social-link" href="https://www.instagram.com/goit.turkiye/" target="_blank">Instagram</a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link" href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/" target="_blank">Facebook</a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link" href="https://m.youtube.com/@GoITTurkey" target="_blank">Youtube</a>
+                </li>
+              </ul>
+              <ul class="footer-menu">
+                <li class="footer-item">
+                  <a class="footer-link" href="#">About us</a>
+                </li>
+                <li class="footer-item">
+                  <a class="footer-link" href="#">Our courses</a>
+                </li>
+                <li class="footer-item">
+                  <a class="footer-link" href="#">Our mentors</a>
+                </li>
+                <li class="footer-item">
+                  <a class="footer-link" href="#">Reviews</a>
+                </li>
+                <li class="footer-item">
+                  <a class="footer-link">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <form class="footer-form" name="Subscribe">
+              <div class="footer-label">
+                <label>
+                  <input
+                    class="input-footer"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                  />
+                </label>
+                <button class="btn-footer" type="submit">Go</button>
+              </div>
+            </form>
           </div>
           <div class="thumb">
             <ul class="footer-list">
