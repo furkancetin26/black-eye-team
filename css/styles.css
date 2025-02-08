@@ -985,6 +985,7 @@ body {
   /* header start */
   .header {
     margin-bottom: 20px;
+    background: transparent;
   }
 
   .header-menu {
@@ -999,6 +1000,7 @@ body {
   .header-menu-left {
     width: 335px;
     gap: 90px;
+    background-color: var(--black);
   }
 
   .header-menus {
@@ -1106,7 +1108,6 @@ body {
   /* 2.section start */
 
   .advertisement {
-    margin-top: 80px;
     min-width: 588px;
     width: 100%;
   }
@@ -1596,8 +1597,11 @@ body {
   }
 
   /* header start */
+  .header-hero-overlay{
+    height: 1120px;
+  }
   .header {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     background: transparent;
   }
 
@@ -1656,13 +1660,70 @@ body {
   /* header end */
 
   /* 1.section start */
-
+  .hero {
+    width: 704px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 64px 32px;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  .hero .hero-p {
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    padding: 0;
+    width: 517px;
+    padding-bottom: 20px;
+  }
+  
+  .hero .images {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hero .text {
+    margin-left: 0;
+  }
+  .hero .hero-p2 {
+    font-size: 14px;
+    padding: 0px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .hero .our-students {
+    padding: 0;
+    display: flex;
+  }
+  .hero .hero-right {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .hero .hero-right img {
+    width: 393px;
+    height: auto;
+    
+  }
+  .hero .reviews-count {
+    gap: 12px;
+    align-items: start;
+  }
   /* 1.section end */
 
   /* 2.section start */
 
   .advertisement {
-    margin: 100px auto;
+    margin: 0px auto;
     min-width: 840px;
 
     width: 100%;
