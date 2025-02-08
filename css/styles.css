@@ -1388,8 +1388,10 @@ body {
 
   /* 7.section start */
   .reviews {
-    margin: 100px 32px;
-    width: 704px;
+    width: 100%;
+    max-width: 704px;
+    margin: 100px auto;
+    
   }
 
   .reviews-cards {
