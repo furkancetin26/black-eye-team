@@ -509,7 +509,6 @@ body {
 
 .our-mentors-div {
   position: relative;
-
   display: flex;
   align-items: center;
 }
@@ -648,6 +647,7 @@ body {
 .sign-up {
   margin-top: 120px;
 }
+
 .sign-up .container {
   position: relative;
   list-style: none;
@@ -655,9 +655,11 @@ body {
   justify-content: center;
   gap: 200px;
 }
+
 .sign-up-left {
   width: 480px;
 }
+
 .sign-up-title {
   margin-bottom: 20px;
   color: #fff;
@@ -668,6 +670,7 @@ body {
   line-height: 54px; /* 112.5% */
   letter-spacing: -1.92px;
 }
+
 .sign-up-title-span {
   color: #bea69e;
   font-family: "DM Sans";
@@ -677,6 +680,7 @@ body {
   line-height: 54px;
   letter-spacing: -1.92px;
 }
+
 .sign-up-text {
   margin-bottom: 40px;
   color: #fff;
@@ -687,6 +691,7 @@ body {
   line-height: 20px; /* 125% */
   letter-spacing: -0.32px;
 }
+
 .sign-up-input {
   display: block;
   width: 100%;
@@ -698,6 +703,7 @@ body {
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .sign-up-texarea {
   display: block;
   width: 100%;
@@ -710,6 +716,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   resize: none;
 }
+
 .sign-up-btn {
   display: block;
   width: 100%;
@@ -735,6 +742,7 @@ body {
   font-size: 14px;
   line-height: 18px; /* 128.571% */
 }
+
 .sign-up-link {
   text-decoration-line: underline;
   color: inherit;
@@ -911,9 +919,11 @@ body {
     width: 100%;
     overflow: hidden;
   }
+
   header.container {
     padding: 0px 20px;
   }
+
   /* side menu overlay */
   .menu-overlay-open {
     display: block;
@@ -989,8 +999,16 @@ body {
 
   /* header start */
   .header {
+    margin-top: unset;
     margin-bottom: 20px;
     background: transparent;
+    max-width: 335px;
+  }
+
+  .header-hero-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header-menu {
@@ -1052,7 +1070,7 @@ body {
 
   /* 1.section start */
   .hero {
-    min-width: 335px;
+    max-width: 335px;
     height: 777px;
     width: 100%;
     margin: 0;
@@ -1063,6 +1081,7 @@ body {
     padding: 20px;
     padding-bottom: 0;
   }
+
   .hero .hero-p {
     font-size: 40px;
     line-height: 1.1;
@@ -1071,14 +1090,17 @@ body {
     width: 295px;
     padding-bottom: 20px;
   }
+
   .hero .images {
     display: flex;
     flex-direction: column;
     align-items: start;
   }
+
   .hero .text {
     margin-left: 0;
   }
+
   .hero .hero-p2 {
     font-size: 14px;
     padding: 0px;
@@ -1087,10 +1109,12 @@ body {
     padding: 0;
     padding-bottom: 40px;
   }
+
   .hero .our-students {
     padding: 0;
     display: flex;
   }
+
   .hero .hero-right {
     padding: 0;
     width: 100%;
@@ -1099,11 +1123,13 @@ body {
     justify-content: center;
     align-items: end;
   }
+
   .hero .hero-right img {
     width: 259px;
     height: auto;
     clip-path: inset(0px 0px 10px 0px);
   }
+
   .hero .reviews-count {
     gap: 12px;
     align-items: start;
@@ -1169,7 +1195,8 @@ body {
   .our-courses {
     background-color: var(--black);
     width: 100%;
-    padding: 0 15px;
+    max-width: 335px;
+    padding-right: 25px;
     margin: auto;
     display: block;
   }
@@ -1177,7 +1204,7 @@ body {
   .fourth-section {
     background-color: var(--black);
     width: 100%;
-    padding: 0 15px;
+    padding-right: 20px;
     margin: auto;
   }
 
@@ -1348,27 +1375,28 @@ body {
 
   /* 6.section start */
   .sign-up {
-    margin-top: 0;
+    margin: 0 auto;
   }
   .sign-up .container {
-    flex-direction: column;
-    gap: 40px;
-    padding: 0 15px;
+    gap: 0px;
+    width: 100%;
+    max-width: 335px;
   }
 
   .sign-up-left {
     width: 100%;
     max-width: 100%;
   }
+
   .sign-up-img {
     display: none;
   }
 
   .sign-up-title,
   .sign-up-title-span {
-    font-size: 32px;
-    line-height: 38px;
-    letter-spacing: -1px;
+    font-size: 28px;
+    line-height: 114%;
+    letter-spacing: -0.04em;
   }
 
   .sign-up-text {
@@ -1454,12 +1482,24 @@ body {
   /* 7.section end */
 
   /* footer start */
+  .footer-overlay {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+  }
+
   .footer {
     padding-top: 30px;
     padding-bottom: 15px;
+    max-width: 375px;
+    padding-left: unset;
+    padding-right: unset;
+    border-top: unset;
   }
+
   .footer-form {
     margin-left: 0;
+    margin-top: 75px;
   }
   .footer-logo {
     margin-bottom: 20px;
@@ -1477,14 +1517,15 @@ body {
 
   .footer-list,
   .footer-menu {
-    text-align: center;
+    text-align: start;
   }
 
   .thumb {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     column-gap: 40px;
     margin-bottom: 30px;
+    margin-left: 20px;
   }
 
   .social-item:not(:last-child),
@@ -1495,14 +1536,18 @@ body {
   .input-footer {
     width: 267px;
   }
+
   .wrapper {
     flex-direction: column;
   }
+
   .privacy-wrapper {
     align-items: center;
     text-align: center;
     justify-content: space-between;
     gap: 72px;
+    margin: auto 22px;
+    margin-top: 40px;
   }
 
   .privacy-link,
@@ -1512,15 +1557,20 @@ body {
     width: auto;
   }
   .privacy-link {
-    width: 171px;
+    width: 147px;
+    text-align: start;
   }
 
   .copyright-footer {
-    width: 134px;
+    width: 116px;
+    text-align: start;
   }
+
   .plus-wrapper {
-    margin-bottom: 20px;
-    align-items: center;
+    margin-bottom: 40px;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 20px;
   }
   /* footer end */
 }
@@ -1622,6 +1672,7 @@ body {
 
   .header-menu {
     margin-left: 32px;
+    margin-right: 32px;
     justify-content: center;
   }
 
@@ -1778,15 +1829,14 @@ body {
   /* 3.section end */
 
   /* 4.section start */
-
   .our-courses {
     background-color: var(--black);
     width: 100%;
-    max-width: 1280px;
-    margin: 20px;
+    max-width: 704px;
+    margin-top: 20px;
     display: flex;
     justify-content: start;
-    padding: 0 20px;
+    margin: 80px auto;
   }
 
   .fourth-section {
@@ -1838,6 +1888,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
   }
+
   .card .card-number-container {
     width: calc(100% - 64px);
     margin: 32px;
@@ -1899,9 +1950,8 @@ body {
   .our-mentors {
     width: 100%;
     max-width: 704px;
-    height: 697px;
-    position: relative;
-    margin: 100px auto;
+    max-height: 697px;
+    height: 100%;
   }
 
   .mentors-header {
@@ -1929,14 +1979,10 @@ body {
   /* 5.section end */
 
   /* 6.section start */
-  .sign-up {
-    margin-top: 100px;
-  }
-
   .sign-up .container {
-    flex-direction: row;
-    gap: 100px;
-    padding: 0 30px;
+    width: 100%;
+    max-width: 704px;
+    justify-content: flex-start;
   }
 
   .sign-up-left {
@@ -1950,9 +1996,9 @@ body {
 
   .sign-up-title,
   .sign-up-title-span {
-    font-size: 40px;
-    line-height: 46px;
-    letter-spacing: -1.5px;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
   }
 
   .sign-up-text {
@@ -2012,10 +2058,7 @@ body {
 
   /* footer start */
   .footer {
-    padding-top: 50px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 50px 20px 25px 20px;
   }
 
   .footer-logo {
@@ -2038,8 +2081,8 @@ body {
 
   .thumb {
     column-gap: 25px;
-    margin-bottom: 74px;
     flex-wrap: nowrap;
+    margin: 0 48px 74px 59px;
   }
 
   .input-footer {
